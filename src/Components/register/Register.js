@@ -71,7 +71,7 @@ export default function Login(props) {
             </span>
           </div>
           <div className="form-group mt-3">
-            <label>Name</label>
+            <label>Name *</label>
             <input
               type="text"
               value={name}
@@ -84,7 +84,7 @@ export default function Login(props) {
             />
           </div>
           <div className="form-group mt-3">
-            <label>Email </label>
+            <label>Email *</label>
             <input
               type="email"
               value={email}
@@ -94,7 +94,7 @@ export default function Login(props) {
             />
           </div>
           <div className="form-group mt-3">
-            <label>Contact No</label>
+            <label>Contact No *</label>
             <input
               type="text"
               pattern="[0-9]+"

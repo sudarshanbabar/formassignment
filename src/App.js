@@ -9,7 +9,7 @@ import Profile from "./Components/profile/Profile";
 
 function App() {
   return (
-    <BrowserRouter basename="/formassignment/">
+    <BrowserRouter basename="/">
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
